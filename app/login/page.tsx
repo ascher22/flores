@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     description:
       "Secure login portal for Flores247 benefits account. Access your FSA, HSA, or HRA account to view balances, file claims, and manage your benefits online.",
     type: "website",
-    url: "/",
+    url: "/login",
   },
   alternates: {
-    canonical: "/",
+    canonical: "/login",
   },
 };
 

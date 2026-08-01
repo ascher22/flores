@@ -1,7 +1,33 @@
 "use client";
 import React, { useState } from "react";
+import type { Metadata } from "next";
 import FloresLogo from "../../components/flores-logo-header";
 import { useRouter } from "next/navigation";
+
+export const metadata: Metadata = {
+  title: "Register",
+  description:
+    "Register for Flores247 benefits access to securely manage your FSA, HSA, or HRA account online.",
+  keywords: [
+    "Flores247 register",
+    "benefits portal registration",
+    "FSA enrollment",
+    "HSA enrollment",
+    "HRA enrollment",
+    "employee benefits registration",
+    "secure account setup",
+  ],
+  openGraph: {
+    title: "Flores247 - Register for Benefits Access",
+    description:
+      "Register for Flores247 benefits access to securely manage your FSA, HSA, or HRA account online.",
+    type: "website",
+    url: "/register",
+  },
+  alternates: {
+    canonical: "/register",
+  },
+};
 
 export default function RegistrationPage() {
   const [cardNumber, setCardNumber] = useState("");
