@@ -1,16 +1,17 @@
-# robots.txt for Flores247
+# *
 User-agent: *
-Allow: /
-Disallow: /api/
-Disallow: /tfa
+Allow: *
 
-# Sitemap
+# *
+User-agent: *
+Disallow: /
+
+# *
+User-agent: *
+Disallow: /api
+
+# Host
+Host: https://www.flores247.com
+
+# Sitemaps
 Sitemap: https://www.flores247.com/sitemap.xml
-
-# Crawl-delay (optional, adjust as needed)
-Crawl-delay: 1
-
-
-
-
-
