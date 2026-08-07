@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://www.flores247.com",
+  siteUrl: "https://www.flores247account.com",
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: "daily",

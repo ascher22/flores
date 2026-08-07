@@ -8,7 +8,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.flores247.com",
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.flores247account.com",
   ),
   title: {
     default: "Flores247 - Login to Your Benefits Account",
